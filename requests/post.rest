@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RAZ21haWwuY29tIiwiaWQiOjEsImlhdCI6MTcwOTAzOTA4OX0.UULBT6qCP5T_gP96mX5CDZLa-PsyZ-10U4izygDtEmY
+
+{
+  "title": "Java",
+  "author": "James Gosling",
+  "year": 1995,
+  "url": "http://java.com",
+  "likes": 87
+}
